@@ -1,0 +1,19 @@
+import junit.framework.*;
+import java.util.*;
+
+public class TestExperimentController extends TestCase{
+  
+  public void testNormalDistributionGenrator (){
+    ExperimentController lab = new ExperimentController();
+    
+    for(int i=0;i<100;i++){
+      
+      int generated = lab.normalDistributionGenerator(30,15);
+      
+      assertTrue(generated>=0);
+      
+    } 
+  }
+  
+  
+}

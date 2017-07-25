@@ -1,0 +1,19 @@
+import java.itil.*;
+
+public class Restaurant{
+  
+  private Table round, bar, eight,four;
+  
+  public Restaurant(){
+    
+    round = new Table(30);
+    bar = new Table(20);
+    eight = new Table(5);
+    four = new Table(5);
+    
+    
+  }
+  
+  
+  
+}
